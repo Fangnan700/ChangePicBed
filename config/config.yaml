@@ -1,0 +1,19 @@
+# Input file directory
+input_dir: ""
+
+# Output file directory
+output_dir: ""
+
+# Temporary file directory
+temp_dir: ""
+
+# Bed service provider, optional (COS)
+pic_bed: ""
+
+# Tencent Cloud COS Configuration
+cos_config:
+  bucket_name: ""
+  bucket_area: ""
+  pic_path: ""
+  secret_id: ""
+  secret_key: ""
