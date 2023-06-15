@@ -129,9 +129,9 @@ func getYuqueBookStacks(options int) {
 	for _, data := range bookStacks.Data {
 		fmt.Printf("-%s\n", data.Name)
 		for _, book := range data.Books {
-			fmt.Printf("|----[BookID: %d] %s\n", book.Id, book.Name)
+			fmt.Printf("\t-[BookID: %d] %s\n", book.Id, book.Name)
 			for _, summary := range book.Summary {
-				fmt.Printf("\t|----[SummaryID:%d] %s\n", summary.Id, summary.Title)
+				fmt.Printf("\t\t-[SummaryID:%d] %s\n", summary.Id, summary.Title)
 			}
 		}
 	}
