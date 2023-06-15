@@ -1,19 +1,25 @@
 # Input file directory
-input_dir: ""
+input_dir: "input"
 
 # Output file directory
-output_dir: ""
+output_dir: "output"
 
 # Temporary file directory
-temp_dir: ""
+temp_dir: "temp"
 
 # Bed service provider, optional (COS)
-pic_bed: ""
+pic_bed: "cos"
 
 # Tencent Cloud COS Configuration
 cos_config:
-  bucket_name: ""
-  bucket_area: ""
-  pic_path: ""
-  secret_id: ""
-  secret_key: ""
+  bucket_name: "yvling-typora-image-125xxxxxxx"
+  bucket_area: "ap-nanjing"
+  pic_path: "typora"
+  secret_id: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  secret_key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Yuque Configuration
+yuque_config:
+  _yuque_session: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  yuque_ctoken: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  export_path: "yuque_export"
